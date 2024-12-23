@@ -45,6 +45,21 @@ h2{
     display: flex;
     flex-direction: column;
 }
+#countdown div{
+    text-align: center;
+    padding: 30px;
+    background: #dad7d7;
+    border-radius: 10px;
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.734);
+}
+@media screen and (max-width: 500px) {
+    #countdown{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 30px;
+    }
+}
 span{
     font-size: xx-large;
 }
